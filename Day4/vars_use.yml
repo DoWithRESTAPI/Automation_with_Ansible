@@ -1,0 +1,9 @@
+---
+ - name: This about variable paly
+   hosts: localhost
+   vars:
+    - x: 45
+    - y: "Ansible"
+   tasks:
+    - name: Display the value of a variable
+      debug:  msg="The value of x is {{ x }} and y is {{ y }}"

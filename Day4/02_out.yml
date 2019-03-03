@@ -1,0 +1,8 @@
+#This is my second playbook
+---
+ - name: This is first play in this playbook and we are running on db
+   hosts: db
+   gather_facts: fasle
+   tasks:
+    - name: This is a taks with dbug module
+      debug: msg="Welcome to Playbooks with yaml scrpting"

@@ -1,0 +1,8 @@
+---
+ - name: Reading varialbe values from files
+   hosts: localhost
+   vars_files:
+     demo_vars.yml
+   tasks:
+    - name: Display varialbe value from file
+      debug: msg="The value form a file is {{ Name }}"

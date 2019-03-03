@@ -1,0 +1,7 @@
+---
+ - name: Play for to know remote node arc
+   hosts: all
+   gather_facts: no
+   tasks:
+    - name: Dsipalying node arc using debug
+      debug: msg="The arc of remote node is- {{ansible_architecture}}"

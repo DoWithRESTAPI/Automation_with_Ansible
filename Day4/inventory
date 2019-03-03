@@ -1,0 +1,7 @@
+localhost   Name="Ansible Scripitn"
+[db]
+172.31.91.0
+localhost
+
+[db:vars]
+Name="This is from gruop"

@@ -1,0 +1,5 @@
+---
+ - name: Create weblogic user across all nodes
+   hosts: localhost
+   tasks:
+     - debug: msg="The enterd value is {{ Name }}"

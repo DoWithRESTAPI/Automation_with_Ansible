@@ -1,0 +1,7 @@
+---
+ - name: Playbook to get user defined facts
+   hosts: all
+   tasks:
+    - name: tHIS IS DEBUG TASK
+      debug: msg="The remote node use defatine fat Env is  {{ nari }} "
+

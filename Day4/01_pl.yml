@@ -1,0 +1,8 @@
+---
+ - name: This is firs play in our playbook and we are running on localhost
+   hosts: localhost
+   tasks:
+    - name: This is my first task from first play
+      file: path="/tmp/day4.txt" state=touch
+    - name: This is second task from frist play
+      file: path="/tmp/intro.txt" state=touch

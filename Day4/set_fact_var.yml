@@ -1,0 +1,6 @@
+---
+ - name: Using set_fact
+   hosts: all
+   tasks:
+    - set_fact: Name=ansible
+    - debug: msg="Value is {{ Name }}"
